@@ -14,3 +14,9 @@ Services:
      image: postgres
       environment:
        - POSTGRES_PASSWORD=mypasswd
+
+       volumes:
+        drupal-modules:
+        drupal-profiles:
+        drupal-sites:
+        drupal-themes:
