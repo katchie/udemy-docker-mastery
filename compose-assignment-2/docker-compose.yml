@@ -1,7 +1,7 @@
 # create your drupal and postgres config here, based off the last assignment
 version: '2'
 
-Services:
+services:
   drupal:
     image: drupal 
     ports: 8080:80
